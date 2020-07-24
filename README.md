@@ -32,6 +32,7 @@ git reflog  //查看全部版本
 git reset --hard HEAD^  //回退到最新版本(修改的代码不存在)
 git reset --hard XXXX   //回退到某一版本
 git reset --soft HEAD^  //回退到上次commit状态(修改的代码存在暂存区)
+git push -f //强推到远程
 git stash   //保存本地修改文件至暂存区(回退至上次commit状态)
 git stash list  //查看暂存区存储列表
 git stash apply@{num}   //应用某个存储但不会从存储列表中删除
